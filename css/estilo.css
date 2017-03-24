@@ -120,7 +120,7 @@ h1.primeiro{
 	height: 42px;
 	border-radius: 8px;
 	color: #ffffff;
-	background-color: rgba(141, 182, 205, 0.8);
+	background-color: rgba(138, 43, 226, 0.8);
 }
 h1.segundo{
 	font-size: 50px;
@@ -191,4 +191,15 @@ ul.menu li a:hover{
 .linhaextra{
 	margin-top: 15px;
 }
-
+.palavraimgcentro {	
+	width: 220px;
+	height: 80px;
+	margin-top: -130px;
+	position: absolute;
+	background-color: rgba(138, 43, 226, 0.8);
+}
+.palavraimgcentro h2{
+	text-align: center;
+	margin-top: 28px;
+	color: #ffffff;
+}
