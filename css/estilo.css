@@ -125,11 +125,17 @@ h1.primeiro{
 h1.segundo{
 	font-size: 50px;
 	height: 40px;
-	margin-right:  -110px;
+	margin-right:  5px;
 	margin-top: -85px;
 	float: right;
 	border-radius: 8px;
 	
+}
+.logo{
+	width: 250px;
+}
+.logo:hover{
+	cursor: pointer;
 }
 /* submenu ****************************************************************/
 .submenu{
@@ -143,6 +149,7 @@ p.submenu{
 }
 p.submenu:hover{
 	color: #ffffff;
+	cursor: pointer;
 }
 /* div do sub menu**********************************************************/
 .hidden{
@@ -202,4 +209,7 @@ ul.menu li a:hover{
 	text-align: center;
 	margin-top: 28px;
 	color: #ffffff;
+}
+.sem_textdecoration a{
+	text-decoration: none;
 }
