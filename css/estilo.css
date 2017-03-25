@@ -150,14 +150,6 @@ p.submenu:hover{
 	color: #ffffff;
 	cursor: pointer;
 }
-/* div do sub menu**********************************************************/
-.hidden{
-	margin-top: -20px;
-	width: 200px;
-	background-color: rgba();
-	position: absolute;
-	background-color: rgba(141, 182, 205, 0.8);
-}
 .hidden ul li{
 	margin-top: 10px;
 	margin-left: -25px;
@@ -171,6 +163,14 @@ p.submenu:hover{
 .hidden ul.sem_style{
 	list-style: none;
 }
+/* div do sub menu**********************************************************/
+.hidden{
+	margin-top: -20px;
+	width: 200px;
+	position: absolute;
+	background-color: rgba(141, 182, 205, 0.8);
+}
+
 
 /* menu de navegação ******************************************************/
 nav{
@@ -210,4 +210,73 @@ ul.menu li a:hover{
 }
 .sem_textdecoration a{
 	text-decoration: none;
+}
+/* Menu IMG 1 ************************************************************/
+.menuIMG1{
+	margin-top: -550px;
+	
+}
+.open{
+	float: center;
+	margin-top: 80px; 
+}
+.open h6{
+	width: 50px;
+	height: 50px;
+	margin-left: 150px;
+	position: absolute;
+	border: 1px solid;
+	border-radius: 30px;
+	border-color:rgba(138, 43, 226, 0.8); 
+
+}
+/* Ajustando h6*/
+h6#mostrar{
+	font-size: 30px;
+	color: rgba(138, 43, 226, 0.8);
+}
+
+h6#ocultar{
+	font-weight: 100;
+	font-size: 45px;
+	color:  rgba(138, 43, 226, 0.8);
+	margin-left: 205px;
+	margin-top: 70px;
+
+} 
+/* Realocando p*/
+.open h6 p{
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.open h6#mostrar p{
+	margin-top: 10px;
+}
+.open h6#ocultar p{
+	margin-top: -5px;
+	margin-left: 14px;
+}
+/* Efeito mouse esclarecer*/
+.open h6 p:hover{
+	color:  rgba(138, 43, 226, 0.4);
+}
+.open h6:hover{
+	border-color:rgba(138, 43, 226, 0.4); 
+}
+/* Efeitos do menuIMG1*/
+#capaefeito {
+	position: absolute;
+	margin-top: -5px;
+	width: 380px;
+	height: 150px;
+}
+#capaefeito ul li a{
+	color: #ffffff;
+}
+#capaefeito ul li a:hover{
+	color: #000000;
+}
+#capaefeito ul li {
+	margin-bottom: 10px;
 }
